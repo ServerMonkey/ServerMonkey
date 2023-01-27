@@ -12,10 +12,9 @@ internet.
 Run the command below to add the repo to your Debian 11 machine.
 
 ```
-cd /tmp
-&& wget https://raw.githubusercontent.com/ServerMonkey/servermonkeys-devtools/main/bin/add-repo_servermonkey \
--qO /tmp/add-repo_servermonkey
-&& echo "e5b0c63911840ca80d0db84b03f4ed7ea49c396bcd9b92fc53f7b3ea42b78d90 add-repo_servermonkey" |
+cd /tmp && wget https://raw.githubusercontent.com/ServerMonkey/servermonkeys-devtools/main/bin/add-repo_servermonkey \
+-qO /tmp/add-repo_servermonkey &&
+echo "e5b0c63911840ca80d0db84b03f4ed7ea49c396bcd9b92fc53f7b3ea42b78d90 add-repo_servermonkey" |
 sha256sum -c && sudo sh add-repo_servermonkey ; rm /tmp/add-repo_servermonkey
 ```
 
