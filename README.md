@@ -5,7 +5,7 @@ related.
 
 ## DEBIAN REPO
 
-Most of my Github projects have a Debian package that can be found on my own
+Most of my GitHub projects have a Debian package that can be found on my own
 repo, hosted on my private website https://muspekaren.se/ .  
 First time users should set up a Debian 11 VM that is connected to the
 internet.  
@@ -22,6 +22,7 @@ sha256sum -c && sudo sh add-repo_servermonkey ; rm -f /tmp/add-repo_servermonkey
 To understand what this script is doing read the code here:
 [ServerMonkey/servermonkeys-devtools](https://github.com/ServerMonkey/servermonkeys-devtools/blob/main/bin/add-repo_servermonkey)
 
-This repo is currently in BETA. There are no stable releases only dev builds.  
-With that said all packges should still be usable.  
-Please report all bugs to me here on Github.
+This repo is currently in BETA. There are no stable releases, only development
+builds.  
+With that said all packages should still be usable.  
+Please report all bugs to me here on GitHub.
